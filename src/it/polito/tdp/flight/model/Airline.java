@@ -24,7 +24,12 @@ public class Airline {
 		this.active = active;
 	}
 
-	public int getAirlineId() {
+	public Airline(String string, String string2) {
+		this.airlineId = airlineId;
+		this.name = name;
+	}
+
+	public int getId() {
 		return airlineId;
 	}
 
@@ -86,6 +91,11 @@ public class Airline {
 
 	public void setActive(String active) {
 		this.active = active;
+	}
+
+	@Override
+	public String toString() {
+		return  name;
 	}
 	
 	

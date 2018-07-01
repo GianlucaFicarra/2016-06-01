@@ -30,7 +30,7 @@ public class Airport {
 		this.tz = tz;
 	}
 
-	public int getAirportId() {
+	public int getId() {
 		return airportId;
 	}
 
